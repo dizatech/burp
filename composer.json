@@ -1,18 +1,17 @@
 {
-    "name": "zofe/burp",
+    "name": "dizatech/burp",
     "description": "Simple PHP router that works with query-string and uri-segments, laravel filter system",
     "keywords": ["php","router", "filter", "front controller", "simple"],
-    "homepage": "https://github.com/zofe/burp",
     "license": "MIT",
     "authors": [
         {
-            "name": "Felice Ostuni",
-            "email": "felice.ostuni@gmail.com"
+            "name": "Dizatech",
+            "email": "omidrezav@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0"
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0|^9.0|^10.0"
     },
     "autoload": {
         "psr-4": {"Zofe\\Burp\\": "src/"}
